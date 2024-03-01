@@ -1,0 +1,13 @@
+body {
+    height: 100vh;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    font-size: 10rem;
+    color: #b68741;
+    text-decoration: underline;
+    text-align: center;
+}

@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 26px;
+    color: #111;
+}
+.header-top {
+    line-height: 35px;
+    border-bottom: 1px solid #eee;
+    background-color: #111;
+    color: white;
+    padding: 5px 0 5px 0;
+}
+.container-fluid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container-fluid ul{
+    display: flex;
+    list-style: none;
+}
+p{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.social-icons ul li{
+    margin-right: 40px;
+    font-weight: bolder;
+}
+.social-icons ul li a{
+   color: white;
+}
+.social-icons ul :hover{
+    transform: translateY(-1.3px);
+}
+.fa-facebook-f:hover{
+    color: #2d527d;
+}
+.fa-instagram:hover{
+    color: purple;
+}
+.fa-linkedin-in:hover{
+    color: #2d527d;
+}
+.fa-youtube:hover{
+    color: red;
+}
+.fa-whatsapp:hover{
+    color: green;
+}
+ .topbar-link ul {
+    display: flex;
+    list-style: none;
+    margin-right: 40px;
+}
+.topbar-link ul li {
+    margin-left: 30px;
+}
+.topbar-link ul li a{
+   text-decoration: none;
+   color: white;
+}
+
+.fa-file-pen{
+    margin-left: 5px;
+}
+.fa-envelope{
+    margin-right: 5px;
+}
+.topbar-link a:hover{
+    color: #2d527d;
+}
+@media (max-width: 768px){
+    p{
+        display: none;
+    }
+    .social-icons{
+        display: none;
+    }
+    .topbar-link ul {
+        display: block;
+        text-align: left;
+        justify-content: left;
+    }
+}
+
+
+
+
+
+
+
+

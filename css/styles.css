@@ -15,7 +15,7 @@ body {
     background-color: #111;
     color: white;
 }
-.container-fluid ul{
+ .header-top .container-fluid ul{
     display: flex;
     list-style: none;
     margin-bottom: 0;
@@ -74,15 +74,70 @@ body {
     color: #2d527d;
 }
 @media (max-width: 768px){
+    .topbar-link{
+        display: inline-flex;
+    }
     .topbar-link ul li {
         margin-left: 5px;
     }
-    .topbar-link ul {
-        display: block;
-        text-align: left;
-        justify-content: left;
+    .topbar-link ul li {
+        margin-left: 10px;
     }
 }
+/*style navbar*/
+#text{
+    color: #b68741;
+    text-decoration: underline;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 1px;
+}
+#text img{
+    margin-top: 0;
+    margin-left: 60px ;
+}
+
+#navbarNavDropdown{
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-left: 90px;
+}
+.service{
+     color: #111;
+     text-decoration: none;
+     margin-left: 60px;
+}
+.service:hover{
+    color: #111;
+}
+#navbarNavDropdown ul li a:hover{
+    color: #264f7d;
+}
+.nav-item {
+    margin-left: 40px;
+}
+@media (max-width: 968px){
+    #navbarNavDropdown{
+        font-size: 1rem;
+        margin-left: 0px;
+    }
+    .service{
+        color: #111;
+        text-decoration: none;
+        margin-left: 38px;
+     }
+    #text img{
+        margin-left: 0px ;
+        width: 50px;
+        height: 40px;
+    }
+    #text{
+        font-size: 1rem;  
+    }
+
+}
+
+
 
 
 

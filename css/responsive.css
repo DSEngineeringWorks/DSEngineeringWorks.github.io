@@ -34,6 +34,9 @@
     .navbar-brand-logo {
         height: unset;
     }
+    .navbar-nav .dropdown-menu .dropdown-item {
+        font-size: 14px;
+    }
     /* Navbar brand style: End */
 }
 
@@ -71,5 +74,6 @@
         font-size: 4rem;
         line-height: 1;
     }
+    
 
 }

@@ -188,3 +188,36 @@ body {
     margin-top: 100px;
     margin-left: 5px;
 }
+/* style about section*/
+.page-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.container{
+    display: flex;
+
+}
+.right-about-sec{
+    margin-left: 100px;
+}
+.featured-desc{
+    margin-left: 20px;
+}
+.featured-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.row-align{
+    display: flex;
+    margin-top: 60px;
+}
+.col-sm-6 .call-action{
+    display: flex;
+}
+.flex-grow-1{
+    margin-left: 20px;
+}

@@ -74,6 +74,40 @@
         font-size: 4rem;
         line-height: 1;
     }
-    
 
+    .page-content{
+        display: block;
+        margin-top: 30px;
+    }
+    .container{
+        display: block;
+    }
+    .left-pic-sec{
+        margin-bottom: 25px;
+    }
+    .left-pic-sec .sec-img img{
+        width: 250px;
+        height: 180px;
+        margin-left: 80px;
+    }
+    .left-pic-sec .first-img {
+        width: 300px;
+        height: 240px;
+    }
+    .flex-grow-1{
+        margin-left: 10px;
+    }
+    .right-about-sec{
+        margin-left: 10px;
+    }
+    .more{
+      margin-left: 40px;  
+    }
+    .row-align{
+        display: block;
+        margin-top: 35px;
+    }
+    .col-sm-6{
+        margin-top: 40px;
+    }  
 }

@@ -53,24 +53,24 @@
     #text{
         font-size: 1rem;  
     }
-    .card-img-overlay{
+    .content{
         margin-top: 80px;
     }
-    .mb-4{
+    .content .mb-4{
         font-size: 3rem;
         font-weight: bold;
         margin-left: 10px;
     }
     
-    .card-img-overlay p{
+    .content p{
         font-size: 1.1rem;
         font-weight: 600;
         margin-left: 13px;
     }
-    .btn-box{
+    .content button{
         margin-left: 13px;
     }
-    .banner-large-text h1 {
+    .hero-section .banner-large-text h1 {
         font-size: 4rem;
         line-height: 1;
     }
